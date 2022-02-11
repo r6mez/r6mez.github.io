@@ -4,8 +4,8 @@ import planet from "../imgs/planet.png";
 class HomePage extends React.Component {
     render() {
         return (
-            <div className='home-page'>
-                <div className='home-text'>
+            <div className='basic-page'>
+                <div className='basic-text'>
                     <p className='name-text'>Ramez</p>
                     <p className='name-text'>Medhat</p>
                     <p className='skill-text'>- Programmer</p>

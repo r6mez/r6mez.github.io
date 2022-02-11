@@ -60,7 +60,7 @@
 
 /* Home Page */
 
-.home-page{
+.basic-page{
   display: flex;
   flex-direction: row;
   align-content: center;
@@ -69,7 +69,7 @@
   min-height: 100vh;
 }
 
-.home-text{
+.basic-text{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -104,12 +104,12 @@
 
 
 @media screen and (max-width: 960px){
-  .home-page{
+  .basic-page{
     flex-direction: column;
     justify-content: center;
   }
 
-  .name-text{
+  .basic-text{
     font-size: 80px;
   }
   
