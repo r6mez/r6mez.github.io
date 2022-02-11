@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/ramez-medhat/static/css/main.a2e5de3b.css",
-    "main.js": "/ramez-medhat/static/js/main.319fd698.js",
-    "static/js/787.241c67d3.chunk.js": "/ramez-medhat/static/js/787.241c67d3.chunk.js",
-    "static/media/WorkSans-Medium.ttf": "/ramez-medhat/static/media/WorkSans-Medium.a95fc1b0412a546c0b19.ttf",
-    "static/media/WorkSans-SemiBold.ttf": "/ramez-medhat/static/media/WorkSans-SemiBold.1e98db4eb705b586728e.ttf",
-    "static/media/WorkSans-Bold.ttf": "/ramez-medhat/static/media/WorkSans-Bold.2bea7a7f7d052c74da25.ttf",
-    "index.html": "/ramez-medhat/index.html",
-    "main.a2e5de3b.css.map": "/ramez-medhat/static/css/main.a2e5de3b.css.map",
-    "main.319fd698.js.map": "/ramez-medhat/static/js/main.319fd698.js.map",
-    "787.241c67d3.chunk.js.map": "/ramez-medhat/static/js/787.241c67d3.chunk.js.map"
+    "main.css": "/ramez/static/css/main.1c8c3184.css",
+    "main.js": "/ramez/static/js/main.fdbe8543.js",
+    "static/js/787.241c67d3.chunk.js": "/ramez/static/js/787.241c67d3.chunk.js",
+    "static/media/WorkSans-Medium.ttf": "/ramez/static/media/WorkSans-Medium.a95fc1b0412a546c0b19.ttf",
+    "static/media/WorkSans-SemiBold.ttf": "/ramez/static/media/WorkSans-SemiBold.1e98db4eb705b586728e.ttf",
+    "static/media/WorkSans-Bold.ttf": "/ramez/static/media/WorkSans-Bold.2bea7a7f7d052c74da25.ttf",
+    "index.html": "/ramez/index.html",
+    "main.1c8c3184.css.map": "/ramez/static/css/main.1c8c3184.css.map",
+    "main.fdbe8543.js.map": "/ramez/static/js/main.fdbe8543.js.map",
+    "787.241c67d3.chunk.js.map": "/ramez/static/js/787.241c67d3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2e5de3b.css",
-    "static/js/main.319fd698.js"
+    "static/css/main.1c8c3184.css",
+    "static/js/main.fdbe8543.js"
   ]
 }
