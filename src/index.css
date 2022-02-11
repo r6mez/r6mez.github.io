@@ -66,7 +66,7 @@
   align-content: center;
   justify-content: space-evenly;
   background-color: #F5E8C7;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .home-text{
@@ -74,7 +74,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: left;
-  padding: 40px;
+  padding: 100px 40px 40px 40px;
 }
 
 .name-text{
@@ -97,7 +97,7 @@
   align-items: center;
 }
 
-.planet-img{
+.img{
   width: 500px;
   height: 500px;
 }
@@ -107,7 +107,6 @@
   .home-page{
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
   }
 
   .name-text{
@@ -119,13 +118,29 @@
   }
 
   .img-container{
-    width: 100vw;
-    height: 50vh;
+    width: 90vw;
+    height: fit-content;
   }
   
   
-  .planet-img{
+  .img{
     width: 350px;
     height: 350px;
   }
+}
+
+/* About Page*/
+.about-title{
+  font-size: 40px;
+  color: #6F4C5B;
+}
+
+.about-text{
+  font-size: 25px;
+  font-weight: 200;
+  color: #9E7777;
+}
+
+@media screen and (max-width: 960px){
+  
 }

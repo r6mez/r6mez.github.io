@@ -11,7 +11,7 @@ class HomePage extends React.Component {
                     <p className='skill-text'>- Programmer</p>
                 </div>
                 <div className='img-container'>
-                    <img src={planet} className='planet-img'></img>
+                    <img src={planet} className='img'></img>
                 </div>
             </div>
         );
