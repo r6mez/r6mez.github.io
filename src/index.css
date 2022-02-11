@@ -3,3 +3,27 @@
   padding: 0;
 }
 
+@font-face {
+  font-family: "WorkSans";
+  src: local("fonts"),
+   url('./fonts/WorkSans-Bold.ttf') format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "WorkSans";
+  src: local("fonts"),
+   url('./fonts/WorkSans-SemiBold.ttf') format("truetype");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "WorkSans";
+  src: local("fonts"),
+   url('./fonts/WorkSans-Medium.ttf') format("truetype");
+  font-weight: 100;
+}
+
+h1{
+   font-family: "WorkSans";
+   font-weight: 300;
+}
+  
