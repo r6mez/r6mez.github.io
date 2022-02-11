@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "WorkSans";
 }
 
 @font-face {
@@ -22,8 +23,37 @@
   font-weight: 100;
 }
 
-h1{
-   font-family: "WorkSans";
-   font-weight: 300;
+.nav-bar{
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  background-color: #F5E8C7;
 }
-  
+
+.nav-box{
+  width: 40%;
+}
+.nav-btn{
+  text-decoration: none;
+  color: #9E7777;
+  font-weight: 100;
+  font-size: 30px;
+}
+
+.nav-btn:hover{
+  color: #6F4C5B;
+}
+
+@media screen and (max-width: 768px){
+  .nav-bar{
+    padding: 20px;
+  }
+  .nav-box{
+    display: none;
+  }
+  .nav-btn{
+    font-size: 20px;
+  }
+}
