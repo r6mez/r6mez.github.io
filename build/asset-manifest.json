@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.2fa5c448.css",
-    "main.js": "/static/js/main.40aad776.js",
+    "main.css": "/static/css/main.410f181c.css",
+    "main.js": "/static/js/main.7b156648.js",
     "static/js/787.241c67d3.chunk.js": "/static/js/787.241c67d3.chunk.js",
+    "static/media/laptop.png": "/static/media/laptop.7263ffa00a29f0ac1e33.png",
     "static/media/WorkSans-Medium.ttf": "/static/media/WorkSans-Medium.a95fc1b0412a546c0b19.ttf",
     "static/media/WorkSans-SemiBold.ttf": "/static/media/WorkSans-SemiBold.1e98db4eb705b586728e.ttf",
     "static/media/WorkSans-Bold.ttf": "/static/media/WorkSans-Bold.2bea7a7f7d052c74da25.ttf",
     "static/media/planet.png": "/static/media/planet.cb79c6368d8d1ec2a336.png",
     "index.html": "/index.html",
-    "main.2fa5c448.css.map": "/static/css/main.2fa5c448.css.map",
-    "main.40aad776.js.map": "/static/js/main.40aad776.js.map",
+    "main.410f181c.css.map": "/static/css/main.410f181c.css.map",
+    "main.7b156648.js.map": "/static/js/main.7b156648.js.map",
     "787.241c67d3.chunk.js.map": "/static/js/787.241c67d3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2fa5c448.css",
-    "static/js/main.40aad776.js"
+    "static/css/main.410f181c.css",
+    "static/js/main.7b156648.js"
   ]
 }
