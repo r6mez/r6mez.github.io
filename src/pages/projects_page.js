@@ -63,7 +63,7 @@ const Cards = () => {
 
     return cardsList.map(function (card) {
         let button;
-        if (card.url != "") {
+        if (card.url !== "") {
             button = <form><button className='card-btn' formAction={card.url} formTarget="_blank">visit</button></form>
         } else {
             button = <div></div>

@@ -162,6 +162,7 @@ body {
 
 .grid-container {
   display: grid;
+  justify-content: center;
   grid-template-columns: auto auto auto;
   padding: 110px 20px 20px 20px;
   gap: 20px 20px;
@@ -175,7 +176,6 @@ body {
   place-self: center;
   border-radius: 20px;
   transition: 1s;
-
 }
 
 .card:hover {
@@ -248,5 +248,83 @@ body {
     height: 38px;
     width: 135px;
     font-size: 22px;
+  }
+}
+
+/* Contact Page */
+
+.contact-page{
+  height: 100vh;
+  background-color: #F5E8C7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact-title{
+  color: #6F4C5B;
+  padding: 20px;
+}
+
+.c-grid-container{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px 20px;
+}
+
+.c-card{
+  background-color: #FDF1D3;
+  box-shadow: 2px 2px 3px 0px #9E7777;
+  width: 35vw;
+  height: 90px;
+  place-self: center;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px 0 20px;
+  transition: 1s;
+}
+
+.c-card-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon{
+  width: 35px;
+  height: 35px;
+  padding-right: 15px;
+  color: #6F4C5B;
+}
+
+.c-card-title{
+  font-size: 32px;
+  font-weight: 100;
+  color: #9E7777;
+}
+
+.arrow{
+  width: 35px;
+  height: 35px;
+  color: #9E7777;
+}
+
+a{
+  text-decoration: none;
+}
+
+@media screen and (max-width: 740px){
+  .c-grid-container{
+    grid-template-columns: auto;
+  }
+  .c-card{
+    width: 80vw;
+  }
+  .contact-title{
+    text-align: center;
+    font-size: 27px
   }
 }
