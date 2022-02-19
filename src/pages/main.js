@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import HomePage from './home_page';
 import AboutPage from './about_page';
 import ProjectsPage from './projects_page';
@@ -12,15 +12,13 @@ class MainPage extends React.Component {
     render() {
         return (
             <div>
-                <Router>
-                    <NavBar />
-                    <Routes>
-                        <Route path='/' element={<HomePage />} />
-                        <Route path="/about_page" element={<AboutPage />} />
-                        <Route path="/projects_page" element={<ProjectsPage />} />
-                        <Route path="/contact_page" element={<ContactPage />} />
-                    </Routes>
-                </Router>
+                <NavBar />
+                <Routes>
+                    <Route exact path='/' element={<HomePage />} />
+                    <Route path="/about_page" element={<AboutPage />} />
+                    <Route path="/projects_page" element={<ProjectsPage />} />
+                    <Route path="/contact_page" element={<ContactPage />} />
+                </Routes>
             </div>
         );
     }

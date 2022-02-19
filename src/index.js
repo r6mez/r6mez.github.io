@@ -10,7 +10,9 @@ import MainPage from './pages/main';
 
 ReactDOM.render(
   <React.StrictMode>
-    <MainPage />
+    <BrowserRouter>
+      <MainPage />
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
