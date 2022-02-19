@@ -43,8 +43,8 @@ const ContactCards = () => {
 
     return cardsList.map(function (card) {
         return (
-            <a href={card.url} target="_blank">
-                <div className='c-card' key={card.name}>
+            <a href={card.url} target="_blank" key={card.name}>
+                <div className='c-card'>
                     <div className="c-card-box">
                         <FontAwesomeIcon icon={card.icon} className="icon" />
                         <h1 className='c-card-title'>{card.name}</h1>

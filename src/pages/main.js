@@ -14,10 +14,10 @@ class MainPage extends React.Component {
             <div>
                 <NavBar />
                 <Routes>
-                    <Route exact path='/' element={<HomePage />} />
-                    <Route exact path="/#/about_page" element={<AboutPage />} />
-                    <Route exact path="/#/projects_page" element={<ProjectsPage />} />
-                    <Route exact path="/#/contact_page" element={<ContactPage />} />
+                    <Route path='/' element={<HomePage />} />
+                    <Route path="/about_page" element={<AboutPage />} />
+                    <Route path="/projects_page" element={<ProjectsPage />} />
+                    <Route path="/contact_page" element={<ContactPage />} />
                 </Routes>
             </div>
         );
