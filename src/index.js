@@ -6,14 +6,14 @@ import './fonts/WorkSans-Bold.ttf';
 import './fonts/WorkSans-SemiBold.ttf';
 import './fonts/WorkSans-Medium.ttf';
 import MainPage from './pages/main';
-import {BrowserRouter} from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <MainPage />
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
