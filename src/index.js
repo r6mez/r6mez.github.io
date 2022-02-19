@@ -6,6 +6,7 @@ import './fonts/WorkSans-Bold.ttf';
 import './fonts/WorkSans-SemiBold.ttf';
 import './fonts/WorkSans-Medium.ttf';
 import MainPage from './pages/main';
+import {BrowserRouter} from 'react-router-dom';
 
 
 ReactDOM.render(
